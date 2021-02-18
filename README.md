@@ -1,2 +1,2 @@
 # Tetris
-Tetris written in C++/SFML
+Basic Tetris clone written in C++/SFML
