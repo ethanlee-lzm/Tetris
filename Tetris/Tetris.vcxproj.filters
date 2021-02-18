@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\GameEngine\cpp\Components.cpp" />
+    <ClCompile Include="src\GameEngine\cpp\Game.cpp" />
+    <ClCompile Include="src\GameEngine\cpp\GraphicsManager.cpp" />
+    <ClCompile Include="src\GameEngine\cpp\InputManager.cpp" />
+    <ClCompile Include="src\GameEngine\cpp\MusicManager.cpp" />
+    <ClCompile Include="src\GameEngine\cpp\SoundManager.cpp" />
+    <ClCompile Include="src\GameEngine\cpp\StateMachine.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\States\cpp\MenuState.cpp" />
+    <ClCompile Include="src\States\cpp\GameState.cpp" />
+    <ClCompile Include="src\States\cpp\SettingsState.cpp" />
+    <ClCompile Include="src\States\cpp\GameOverState.cpp" />
+    <ClCompile Include="src\GameEngine\cpp\DataManager.cpp" />
+    <ClCompile Include="src\States\cpp\ConnectState.cpp" />
+    <ClCompile Include="src\GameEngine\cpp\NetworkManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GameEngine\hpp\Components.hpp" />
+    <ClInclude Include="src\GameEngine\hpp\Game.hpp" />
+    <ClInclude Include="src\GameEngine\hpp\GraphicsManager.hpp" />
+    <ClInclude Include="src\GameEngine\hpp\MusicManager.hpp" />
+    <ClInclude Include="src\GameEngine\hpp\SoundManager.hpp" />
+    <ClInclude Include="src\GameEngine\hpp\State.hpp" />
+    <ClInclude Include="src\GameEngine\hpp\StateMachine.hpp" />
+    <ClInclude Include="src\DEFINE.hpp" />
+    <ClInclude Include="src\States\hpp\MenuState.hpp" />
+    <ClInclude Include="src\States\hpp\GameState.hpp" />
+    <ClInclude Include="src\States\hpp\SettingsState.hpp" />
+    <ClInclude Include="src\States\hpp\GameOverState.hpp" />
+    <ClInclude Include="src\GameEngine\hpp\InputManager.hpp" />
+    <ClInclude Include="src\GameEngine\hpp\DataManager.hpp" />
+    <ClInclude Include="src\States\hpp\ConnectState.hpp" />
+    <ClInclude Include="src\GameEngine\hpp\NetworkManager.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll" />
+    <None Include="sfml-audio-2.dll" />
+    <None Include="sfml-audio-d-2.dll" />
+    <None Include="sfml-graphics-2.dll" />
+    <None Include="sfml-graphics-d-2.dll" />
+    <None Include="sfml-network-2.dll" />
+    <None Include="sfml-network-d-2.dll" />
+    <None Include="sfml-system-2.dll" />
+    <None Include="sfml-system-d-2.dll" />
+    <None Include="sfml-window-2.dll" />
+    <None Include="sfml-window-d-2.dll" />
+  </ItemGroup>
+</Project>
